@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.lemonco.italianpizzaapp" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".TopLevelActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PizzaCategoryActivity"
+            android:label="@string/title_activity_pizza_category" >
+        </activity>
+        <activity
+            android:name=".PastaCategoryActivity"
+            android:label="@string/title_activity_pasta_category" >
+        </activity>
+        <activity
+            android:name=".StoreCategoryActivity"
+            android:label="@string/title_activity_store_category" >
+        </activity>
+        <activity
+            android:name=".PizzaActivity"
+            android:label="@string/title_activity_pizza" >
+        </activity>
+        <activity
+            android:name=".PastaActivity"
+            android:label="@string/title_activity_pasta" >
+        </activity>
+        <activity
+            android:name=".StoreActivity"
+            android:label="@string/title_activity_store" >
+        </activity>
+    </application>
+
+</manifest>
